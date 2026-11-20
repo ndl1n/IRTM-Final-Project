@@ -3,6 +3,8 @@ import math
 import re
 import unicodedata
 from collections import Counter
+from pathlib import Path
+from src.corpus.annotations import read_work
 
 def tokenize(text):
     normalized = unicodedata.normalize('NFKC', text).lower()
@@ -42,3 +44,45 @@ class BM25Baseline:
             if score > 0:
                 rows.append({'doc_id': doc['doc_id'], 'score': round(score, 6)})
         return sorted(rows, key=lambda d: (-d['score'], d['doc_id']))[:top_k]
+
+def load_mappings(annotation_dir):
+    """讀取 A～E 工作表裡的口語對照，整理成 {口語: [法律詞, ...]}。"""
+    mappings = {}
+    for role in 'ABCDE':
+        path = Path(annotation_dir) / (role + '.csv')
+        if not path.exists():
+            continue
+        for row in read_work(path):
+            if row['kind'] != 'mapping':
+                continue
+            colloquial = row['text'].strip()    # 口語，例如「網購」
+            legal_term = row['target'].strip()  # 法律詞，例如「通訊交易」
+            if colloquial not in mappings:
+                mappings[colloquial] = []
+            if legal_term not in mappings[colloquial]:
+                mappings[colloquial].append(legal_term)
+    return mappings
+
+
+class MappingExpansionBM25:
+    """C 的改良版：先用口語對照表把法律詞補進查詢（W1 p.15 的 query expansion），再交給原本的 BM25 打分。"""
+    backend = 'mapping_expansion_bm25'
+
+    def __init__(self, documents, mappings, k1=1.5, b=0.75):
+        self.baseline = BM25Baseline(documents, k1, b)  # 打分數完全沿用原版
+        self.mappings = mappings                         # {口語: [法律詞, ...]}
+
+    def expand(self, query):
+        """找出查詢裡出現的口語詞，回傳要補進查詢的法律詞（不重複）。"""
+        added_terms = []
+        for colloquial, legal_terms in self.mappings.items():
+            if colloquial in query:
+                for term in legal_terms:
+                    if term not in query and term not in added_terms:
+                        added_terms.append(term)
+        return added_terms
+
+    def search(self, query, top_k=5, domain=None):
+        added_terms = self.expand(query)
+        expanded_query = ' '.join([query] + added_terms)
+        return self.baseline.search(expanded_query, top_k, domain)
