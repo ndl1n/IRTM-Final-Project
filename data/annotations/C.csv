@@ -3,14 +3,14 @@ audit,C_AUD_19,official_rental_20261114_v3,moj_J0170001_19,,"通訊交易或訪�
 前項但書合理例外情事，由行政院定之。
 企業經營者於消費者收受商品或接受服務時，未依前條第一項第三款規定提供消費者解除契約相關資訊者，第一項七日期間自提供之次日起算。但自第一項七日期間起算，已逾四個月者，解除權消滅。
 消費者於第一項及第三項所定期間內，已交運商品或發出書面者，契約視為解除。
-通訊交易或訪問交易違反本條規定所為之約定，其約定無效。",,snapshot_only,全文取自語料 corpus.jsonl（官方 XML 快照）；尚未逐字比對全國法規資料庫網頁。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+通訊交易或訪問交易違反本條規定所為之約定，其約定無效。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
 audit,C_AUD_22,official_rental_20261114_v3,moj_J0170001_22,,"企業經營者應確保廣告內容之真實，其對消費者所負之義務不得低於廣告之內容。
-企業經營者之商品或服務廣告內容，於契約成立後，應確實履行。",,snapshot_only,全文取自語料 corpus.jsonl（官方 XML 快照）；尚未逐字比對全國法規資料庫網頁。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
+企業經營者之商品或服務廣告內容，於契約成立後，應確實履行。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
 audit,C_AUD_12,official_rental_20261114_v3,moj_J0170001_12,,"定型化契約中之條款違反誠信原則，對消費者顯失公平者，無效。
 定型化契約中之條款有下列情形之一者，推定其顯失公平：
 一、違反平等互惠原則者。
 二、條款與其所排除不予適用之任意規定之立法意旨顯相矛盾者。
-三、契約之主要權利或義務，因受條款之限制，致契約之目的難以達成者。",,snapshot_only,全文取自語料 corpus.jsonl（官方 XML 快照）；尚未逐字比對全國法規資料庫網頁。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+三、契約之主要權利或義務，因受條款之限制，致契約之目的難以達成者。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
 phrase,C_P_01,official_rental_20261114_v3,moj_J0170001_19,,通訊交易,,valid,消保法正式用語，第2條有定義，第19條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
 phrase,C_P_02,official_rental_20261114_v3,moj_J0170001_19,,解除契約,,valid,第19條規定的法律效果用語，逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
 phrase,C_P_03,official_rental_20261114_v3,moj_J0170001_12,,定型化契約,,valid,第2條有定義，第12條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
