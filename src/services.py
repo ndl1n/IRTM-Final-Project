@@ -3,7 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 from src.corpus.validation import load_corpus
-from src.phrase_mining.reference import ReferencePhraseIndex
+from src.phrase_mining.pat_tree import PATTreeIndex
 from src.retrieval.bm25 import BM25Baseline
 from src.retrieval.recommender import suggest
 from src.relation_mining.relations import context, related_terms
@@ -24,8 +24,8 @@ class LawExploreService:
         self.documents = load_corpus(path, self.corpus_id)
         self.by_id = {d['doc_id']: d for d in self.documents}
         self.phrases = json.loads((root/self.config['phrase_path']).read_text(encoding='utf-8'))
-        # B replaces this constructor after parity tests pass.
-        self.phrase_index = ReferencePhraseIndex(self.documents)
+        # B: PAT-tree, parity with ReferencePhraseIndex checked in tests/test_pat_tree.py.
+        self.phrase_index = PATTreeIndex(self.documents)
         # C replaces or improves this baseline after recording a reproducible comparison.
         self.retriever = BM25Baseline(self.documents)
         self.index_id = 'starter-' + hashlib.sha256(path.read_bytes()).hexdigest()[:12]
