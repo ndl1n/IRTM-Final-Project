@@ -1,1 +1,35 @@
 ﻿kind,id,corpus_id,doc_id,query_id,text,target,label,evidence,source_url,author
+audit,C_AUD_19,official_rental_20261114_v3,moj_J0170001_19,,"通訊交易或訪問交易之消費者，得於收受商品或接受服務後七日內，以退回商品或書面通知方式解除契約，無須說明理由及負擔任何費用或對價。但通訊交易有合理例外情事者，不在此限。
+前項但書合理例外情事，由行政院定之。
+企業經營者於消費者收受商品或接受服務時，未依前條第一項第三款規定提供消費者解除契約相關資訊者，第一項七日期間自提供之次日起算。但自第一項七日期間起算，已逾四個月者，解除權消滅。
+消費者於第一項及第三項所定期間內，已交運商品或發出書面者，契約視為解除。
+通訊交易或訪問交易違反本條規定所為之約定，其約定無效。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+audit,C_AUD_22,official_rental_20261114_v3,moj_J0170001_22,,"企業經營者應確保廣告內容之真實，其對消費者所負之義務不得低於廣告之內容。
+企業經營者之商品或服務廣告內容，於契約成立後，應確實履行。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
+audit,C_AUD_12,official_rental_20261114_v3,moj_J0170001_12,,"定型化契約中之條款違反誠信原則，對消費者顯失公平者，無效。
+定型化契約中之條款有下列情形之一者，推定其顯失公平：
+一、違反平等互惠原則者。
+二、條款與其所排除不予適用之任意規定之立法意旨顯相矛盾者。
+三、契約之主要權利或義務，因受條款之限制，致契約之目的難以達成者。",,text_matches_web,2026-11-21 開啟全國法規資料庫單條頁面逐字比對，內容一致。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+phrase,C_P_01,official_rental_20261114_v3,moj_J0170001_19,,通訊交易,,valid,消保法正式用語，第2條有定義，第19條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+phrase,C_P_02,official_rental_20261114_v3,moj_J0170001_19,,解除契約,,valid,第19條規定的法律效果用語，逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+phrase,C_P_03,official_rental_20261114_v3,moj_J0170001_12,,定型化契約,,valid,第2條有定義，第12條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+phrase,C_P_04,official_rental_20261114_v3,moj_J0170001_12,,顯失公平,,valid,判斷定型化契約條款是否無效的關鍵用語，第12條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+phrase,C_P_05,official_rental_20261114_v3,moj_J0170001_22,,企業經營者,,valid,第2條有定義，第22條逐字出現。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
+mapping,C_M_01,official_rental_20261114_v3,moj_J0170001_19,,網購,通訊交易,near_synonym,網購屬於通訊交易（第2條第十款列有網際網路），但通訊交易範圍較廣，還包含電視、型錄等方式。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+mapping,C_M_02,official_rental_20261114_v3,moj_J0170001_19,,退貨,解除契約,contextual,第19條以退回商品作為解除契約的方式之一；退貨是行為，解除契約是法律效果。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+mapping,C_M_03,official_rental_20261114_v3,moj_J0170001_22,,店家,企業經營者,near_synonym,消費情境中販售商品或提供服務的店家，對應第2條定義的企業經營者。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
+mapping,C_M_04,official_rental_20261114_v3,moj_J0170001_12,,合約,定型化契約,contextual,只有店家預先擬好、用於多數消費者的合約才是定型化契約；個別協商的合約不算。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+mapping,C_M_05,official_rental_20261114_v3,moj_J0170001_43,,投訴,申訴,near_synonym,發生消費爭議時向店家或消保單位投訴，對應第43條的申訴管道。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=43,C
+query,C_Q_01,official_rental_20261114_v3,,,網購店家說沒有七天鑑賞期，但我想退貨可以嗎？,,development,,,C
+query,C_Q_02,official_rental_20261114_v3,,,買的東西跟廣告寫的不一樣，店家要負責嗎？,,development,,,C
+query,C_Q_03,official_rental_20261114_v3,,,健身房合約寫中途解約一律不退費，這樣合法嗎？,,development,,,C
+qrel,C_R_01,official_rental_20261114_v3,moj_J0170001_19,C_Q_01,,,2,第1項規定通訊交易的消費者收到商品後七日內可解除契約；最後一項規定違反本條的約定無效，直接回答店家說沒有七天鑑賞期的情況。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19,C
+qrel,C_R_02,official_rental_20261114_v3,moj_J0170001_2,C_Q_01,,,1,第十款定義通訊交易，方法包含網際網路，可確認網購屬於通訊交易。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=2,C
+qrel,C_R_03,official_rental_20261114_v3,moj_J0170001_18,C_Q_01,,,1,規定店家須告知解除契約的期限與方式；沒告知時七日期間的起算見第19條第3項。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=18,C
+qrel,C_R_04,official_rental_20261114_v3,moj_J0170001_19-2,C_Q_01,,,1,說明解除契約後店家取回商品與退還價金的程序。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=19-2,C
+qrel,C_R_05,official_rental_20261114_v3,moj_J0170001_22,C_Q_02,,,2,企業經營者應確保廣告內容真實，對消費者的義務不得低於廣告內容。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=22,C
+qrel,C_R_06,official_rental_20261114_v3,moj_J0170001_23,C_Q_02,,,1,媒體明知廣告不實時與企業經營者負連帶責任；規範對象是媒體，對店家責任屬背景資訊。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=23,C
+qrel,C_R_07,official_rental_20261114_v3,moj_J0170001_12,C_Q_03,,,2,定型化契約條款違反誠信原則、對消費者顯失公平者無效，可用來判斷一律不退費條款的效力。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=12,C
+qrel,C_R_08,official_rental_20261114_v3,moj_J0170001_11,C_Q_03,,,1,定型化契約條款應本平等互惠原則，有疑義時應為有利於消費者的解釋。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=11,C
+qrel,C_R_09,official_rental_20261114_v3,moj_J0170001_17,C_Q_03,,,1,主管機關可針對特定行業訂定定型化契約應記載或不得記載事項；健身業的相關規範不在本語料中。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0170001&flno=17,C
