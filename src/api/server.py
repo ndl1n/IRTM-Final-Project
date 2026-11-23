@@ -60,7 +60,8 @@ def create_server(host='127.0.0.1', port=8765, service=None):
                     response = service.search(get('query'))
                     return self.send(200, {k:response[k] for k in ('query','corpus_id','index_id','suggestions')})
                 if url.path.startswith('/phrases/'):
-                    return self.send(200, service.phrase(unquote(url.path[len('/phrases/'):])) )
+                    term = unquote(url.path[len('/phrases/'):])
+                    return self.send(200, service.phrase(term, include_evidence=get('evidence') == '1'))
                 return self.send(200, service.document(unquote(url.path[len('/documents/'):])) )
             except ServiceError as e:
                 self.send(e.status, {'error': {'code':e.code, 'message':e.message}})

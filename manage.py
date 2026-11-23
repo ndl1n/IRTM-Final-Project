@@ -161,7 +161,7 @@ def command_check():
 def command_package():
     output=ROOT/'dist/LawExplore_Starter.zip';output.parent.mkdir(exist_ok=True)
     files=[ROOT/p for p in ['README.md','run.py','manage.py','Start-LawExplore.cmd','.gitignore']]
-    for directory in ['src','tests','frontend','config','docs','data/seed','data/processed/official','data/annotations']:
+    for directory in ['src','tests','frontend','config','docs','data/seed','data/processed/official','data/annotations','handoff/D']:
         files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc')
     with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(set(files)):z.write(p,'LawExplore/'+p.relative_to(ROOT).as_posix())

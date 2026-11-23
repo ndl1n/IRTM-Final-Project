@@ -74,7 +74,7 @@ class LawExploreService:
                 'method': self.retriever.backend, 'results': results,
                 'suggestions': suggest(query, documents, self.phrases)}
 
-    def phrase(self, term):
+    def phrase(self, term, *, include_evidence=False):
         term = self.validate_term(term)
         result = self.phrase_index.lookup(term)
         for match in result['documents']:
@@ -82,5 +82,7 @@ class LawExploreService:
             match.update(law_name=doc['law_name'], article_no=doc['article_no'], source_url=doc['source_url'])
             match['contexts'] = [context(doc['text'], p['start'], p['end']) for p in match['positions'][:3]]
         result.update(corpus_id=self.corpus_id, index_id=self.index_id,
-                      related_terms=related_terms(term, self.phrase_index, self.phrases))
+                      related_terms=related_terms(
+                          term, self.phrase_index, self.phrases,
+                          include_evidence=include_evidence, documents=self.documents))
         return result

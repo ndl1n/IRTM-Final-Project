@@ -39,6 +39,29 @@ class HTTPTests(unittest.TestCase):
         self.assertEqual(self.request('/search?'+urlencode({'query':'','corpus_id':self.service.corpus_id}))[0],400)
         self.assertEqual(self.request('/search?'+urlencode({'query':'x','top_k':'abc','corpus_id':self.service.corpus_id}))[0],400)
 
+    def test_phrase_cooccurrence_evidence_is_optional_and_matches_source(self):
+        path = '/phrases/' + quote('押金') + '?' + urlencode({'corpus_id': self.service.corpus_id})
+        status, body = self.request(path)
+        self.assertEqual(status, 200)
+        summary = next(row for row in json.loads(body)['related_terms'] if row['phrase'] == '點交')
+        self.assertNotIn('evidence', summary)
+
+        status, body = self.request(path + '&evidence=1')
+        self.assertEqual(status, 200)
+        row = next(row for row in json.loads(body)['related_terms'] if row['phrase'] == '點交')
+        self.assertEqual({key: row[key] for key in summary}, summary)
+        self.assertEqual(row['cooccurrence_df'], 4)
+        self.assertEqual([item['doc_id'] for item in row['evidence']], row['cooccurrence_doc_ids'])
+        for item in row['evidence']:
+            text = self.service.by_id[item['doc_id']]['text']
+            self.assertEqual([match['phrase'] for match in item['matches']], ['押金', '點交'])
+            for match in item['matches']:
+                self.assertTrue(match['positions'])
+                self.assertEqual(len(match['positions']), len(match['contexts']))
+                for hit, context in zip(match['positions'], match['contexts']):
+                    self.assertEqual(text[hit['start']:hit['end']], match['phrase'])
+                    self.assertEqual(context['text'][context['match_start']:context['match_end']], match['phrase'])
+
     def test_frontend_and_guides(self):
         for path in ('/','/style.css','/app.js','/team','/meta','/health','/docs/TEAM.md','/docs/TECHNICAL.md'):
             status,body=self.request(path);self.assertEqual(status,200,path);self.assertTrue(body)

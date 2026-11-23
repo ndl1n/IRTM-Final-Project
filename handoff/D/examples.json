@@ -1,0 +1,3186 @@
+{
+  "corpus_id": "official_rental_20261114_v3",
+  "index_id": "starter-3bcb298fc69d",
+  "document_count": 467,
+  "note": "共同出現，不代表法律或因果關係；快照及施行狀態待人工覆核。",
+  "examples": [
+    {
+      "term": "押金",
+      "candidate": "點交",
+      "domain": null,
+      "related_terms": [
+        {
+          "phrase": "點交",
+          "score": 0.4,
+          "cooccurrence_df": 4,
+          "method": "document_jaccard",
+          "term": "押金",
+          "term_df": 10,
+          "phrase_df": 4,
+          "union_df": 10,
+          "domain": null,
+          "cooccurrence_doc_ids": [
+            "moi_residential_lease_required_15",
+            "moi_residential_lease_required_19",
+            "moj_D0060125_12",
+            "moj_D0060125_3"
+          ],
+          "evidence": [
+            {
+              "doc_id": "moi_residential_lease_required_15",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://www.ey.gov.tw/File/43BC094940995CFC?A=C#page=4",
+              "law_name": "住宅租賃定型化契約應記載及不得記載事項",
+              "article_no": "應記載第 15 點",
+              "matches": [
+                {
+                  "phrase": "押金",
+                  "positions": [
+                    {
+                      "start": 262,
+                      "end": 264
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "與承租人未繳清之租金及第六點約定之相關費用，出租人得由第五點第一項規定之押金中抵充，如有不足，並得向承租人請求給付不足之金額或費用。",
+                      "context_start": 226,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                },
+                {
+                  "phrase": "點交",
+                  "positions": [
+                    {
+                      "start": 58,
+                      "end": 60
+                    },
+                    {
+                      "start": 99,
+                      "end": 101
+                    },
+                    {
+                      "start": 122,
+                      "end": 124
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "應即結算租金及第六點約定之相關費用，並會同承租人共同完成屋況及附屬設備之點交手續，承租人應將租賃住宅返還出租人並遷出戶籍或其他登記。\n前項租賃之一方",
+                      "context_start": 22,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "承租人應將租賃住宅返還出租人並遷出戶籍或其他登記。\n前項租賃之一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n承租人未依第一項規定返",
+                      "context_start": 63,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "記。\n前項租賃之一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n承租人未依第一項規定返還租賃住宅時，出租人應即明示不以不定期限繼續契",
+                      "context_start": 86,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moi_residential_lease_required_19",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://www.ey.gov.tw/File/43BC094940995CFC?A=C#page=6",
+              "law_name": "住宅租賃定型化契約應記載及不得記載事項",
+              "article_no": "應記載第 19 點",
+              "matches": [
+                {
+                  "phrase": "押金",
+                  "positions": [
+                    {
+                      "start": 124,
+                      "end": 126
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "視為拋棄其所有權。\n出租人處理前項遺留物所生費用，得由第五點第一項規定之押金中抵充，如有不足，並得向承租人請求給付不足之費用。",
+                      "context_start": 88,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                },
+                {
+                  "phrase": "點交",
+                  "positions": [
+                    {
+                      "start": 24,
+                      "end": 26
+                    },
+                    {
+                      "start": 31,
+                      "end": 33
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "十九、遺留物之處理\n租賃關係消滅，依第十五點完成點交或視為完成點交之手續後，承租人仍於租賃住宅有遺留物者，除租賃雙方另有約定",
+                      "context_start": 0,
+                      "match_start": 24,
+                      "match_end": 26
+                    },
+                    {
+                      "text": "十九、遺留物之處理\n租賃關係消滅，依第十五點完成點交或視為完成點交之手續後，承租人仍於租賃住宅有遺留物者，除租賃雙方另有約定外，經出租人定",
+                      "context_start": 0,
+                      "match_start": 31,
+                      "match_end": 33
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_D0060125_12",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060125",
+              "law_name": "租賃住宅市場發展及管理條例",
+              "article_no": "第 12 條",
+              "matches": [
+                {
+                  "phrase": "押金",
+                  "positions": [
+                    {
+                      "start": 129,
+                      "end": 131
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "經出租人定相當期限催告仍不取回時，視為拋棄其所有權，其所需處理費用，得由押金扣除，不足者，出租人得請求承租人給付。",
+                      "context_start": 93,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                },
+                {
+                  "phrase": "點交",
+                  "positions": [
+                    {
+                      "start": 35,
+                      "end": 37
+                    },
+                    {
+                      "start": 43,
+                      "end": 45
+                    },
+                    {
+                      "start": 66,
+                      "end": 68
+                    },
+                    {
+                      "start": 72,
+                      "end": 74
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "租賃契約消滅時，租賃住宅之返還，應由租賃當事人共同完成屋況及附屬設備之點交。一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n前項點",
+                      "context_start": 0,
+                      "match_start": 35,
+                      "match_end": 37
+                    },
+                    {
+                      "text": "，租賃住宅之返還，應由租賃當事人共同完成屋況及附屬設備之點交。一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n前項點交後尚有遺留物，",
+                      "context_start": 7,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "附屬設備之點交。一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n前項點交後尚有遺留物，除租賃當事人另有約定外，經出租人定相當期限催告",
+                      "context_start": 30,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "交。一方未會同點交，經他方定相當期限催告仍不會同者，視為完成點交。\n前項點交後尚有遺留物，除租賃當事人另有約定外，經出租人定相當期限催告仍不取回時，",
+                      "context_start": 36,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_D0060125_3",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060125",
+              "law_name": "租賃住宅市場發展及管理條例",
+              "article_no": "第 3 條",
+              "matches": [
+                {
+                  "phrase": "押金",
+                  "positions": [
+                    {
+                      "start": 252,
+                      "end": 254
+                    },
+                    {
+                      "start": 520,
+                      "end": 522
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "業務）之公司。\n六、租賃住宅管理業務：指租賃住宅之屋況與設備點交、收租與押金管理、日常修繕維護、糾紛協調處理及其他與租賃住宅管理有關之事項。\n七、營",
+                      "context_start": 216,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "：指代管業服務之委託人及承租人，或包租業服務之出租人及次承租人。\n十三、押金：指承租人為擔保租賃住宅之損害賠償行為及處理遺留物責任，預為支付之金錢。",
+                      "context_start": 484,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                },
+                {
+                  "phrase": "點交",
+                  "positions": [
+                    {
+                      "start": 246,
+                      "end": 248
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "以下簡稱包租業務）之公司。\n六、租賃住宅管理業務：指租賃住宅之屋況與設備點交、收租與押金管理、日常修繕維護、糾紛協調處理及其他與租賃住宅管理有關之事",
+                      "context_start": 210,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "個人資料",
+      "candidate": "蒐集",
+      "domain": null,
+      "related_terms": [
+        {
+          "phrase": "蒐集",
+          "score": 0.5384615384615384,
+          "cooccurrence_df": 21,
+          "method": "document_jaccard",
+          "term": "個人資料",
+          "term_df": 38,
+          "phrase_df": 22,
+          "union_df": 39,
+          "domain": null,
+          "cooccurrence_doc_ids": [
+            "moj_I0050021_1",
+            "moj_I0050021_10",
+            "moj_I0050021_11",
+            "moj_I0050021_15",
+            "moj_I0050021_16",
+            "moj_I0050021_19",
+            "moj_I0050021_2",
+            "moj_I0050021_20",
+            "moj_I0050021_25",
+            "moj_I0050021_28",
+            "moj_I0050021_29",
+            "moj_I0050021_3",
+            "moj_I0050021_4",
+            "moj_I0050021_5",
+            "moj_I0050021_51",
+            "moj_I0050021_6",
+            "moj_I0050021_7",
+            "moj_I0050021_8",
+            "moj_I0050021_9",
+            "moj_K0040012_35",
+            "moj_K0040012_92-2"
+          ],
+          "evidence": [
+            {
+              "doc_id": "moj_I0050021_1",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 1 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 3,
+                      "end": 7
+                    },
+                    {
+                      "start": 30,
+                      "end": 34
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定",
+                      "context_start": 0,
+                      "match_start": 3,
+                      "match_end": 7
+                    },
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定本法。",
+                      "context_start": 0,
+                      "match_start": 30,
+                      "match_end": 34
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 8,
+                      "end": 10
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定本法。",
+                      "context_start": 0,
+                      "match_start": 8,
+                      "match_end": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_10",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 10 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 24,
+                      "end": 28
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應依當事人之請求，就其蒐集之個人資料，答覆查詢、提供閱覽或製給複製本。但有下列情形之一者，不在此限：\n一、妨",
+                      "context_start": 0,
+                      "match_start": 24,
+                      "match_end": 28
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 21,
+                      "end": 23
+                    },
+                    {
+                      "start": 116,
+                      "end": 118
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應依當事人之請求，就其蒐集之個人資料，答覆查詢、提供閱覽或製給複製本。但有下列情形之一者，不在此限",
+                      "context_start": 0,
+                      "match_start": 21,
+                      "match_end": 23
+                    },
+                    {
+                      "text": "經濟利益或其他國家重大利益。\n二、妨害公務機關執行法定職務。\n三、妨害該蒐集機關或第三人之重大利益。",
+                      "context_start": 80,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_11",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 11 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    },
+                    {
+                      "start": 41,
+                      "end": 45
+                    },
+                    {
+                      "start": 110,
+                      "end": 114
+                    },
+                    {
+                      "start": 153,
+                      "end": 157
+                    },
+                    {
+                      "start": 201,
+                      "end": 205
+                    },
+                    {
+                      "start": 233,
+                      "end": 237
+                    },
+                    {
+                      "start": 266,
+                      "end": 270
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應維護個人資料之正確，並應主動或依當事人之請求更正或補充之。\n個人資料正確性有爭議者，",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    },
+                    {
+                      "text": "非公務機關應維護個人資料之正確，並應主動或依當事人之請求更正或補充之。\n個人資料正確性有爭議者，應主動或依當事人之請求停止處理或利用。但因執行職務或業務",
+                      "context_start": 5,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "執行職務或業務所必須，或經當事人書面同意，並經註明其爭議者，不在此限。\n個人資料蒐集之特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或",
+                      "context_start": 74,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或利用該個人資料。但因執行職務或業務所必須或經當事人書面同意者，不在此限。\n違反本法規定",
+                      "context_start": 117,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "業務所必須或經當事人書面同意者，不在此限。\n違反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可",
+                      "context_start": 165,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正或補充之個人資料，應於",
+                      "context_start": 197,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正或補充之個人資料，應於更正或補充後，通知曾提供利用之對象。",
+                      "context_start": 230,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 114,
+                      "end": 116
+                    },
+                    {
+                      "start": 193,
+                      "end": 195
+                    },
+                    {
+                      "start": 224,
+                      "end": 226
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "或業務所必須，或經當事人書面同意，並經註明其爭議者，不在此限。\n個人資料蒐集之特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或利用",
+                      "context_start": 78,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "。但因執行職務或業務所必須或經當事人書面同意者，不在此限。\n違反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正",
+                      "context_start": 188,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_15",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 15 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 10,
+                      "end": 12
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之一者：",
+                      "context_start": 0,
+                      "match_start": 10,
+                      "match_end": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_16",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 16 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之利用，除第六條第一項所規定資料外，應於執行法定職務必要範圍內為之，並與",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 45,
+                      "end": 47
+                    },
+                    {
+                      "start": 195,
+                      "end": 197
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "之利用，除第六條第一項所規定資料外，應於執行法定職務必要範圍內為之，並與蒐集之特定目的相符。但有下列情形之一者，得為特定目的外之利用：\n一、法律明文",
+                      "context_start": 9,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n六、有利於當事人權益。\n七、經當事",
+                      "context_start": 159,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_19",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 19 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 6,
+                      "end": 10
+                    },
+                    {
+                      "start": 109,
+                      "end": 113
+                    },
+                    {
+                      "start": 202,
+                      "end": 206
+                    },
+                    {
+                      "start": 329,
+                      "end": 333
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之",
+                      "context_start": 0,
+                      "match_start": 6,
+                      "match_end": 10
+                    },
+                    {
+                      "text": "約之關係，且已採取適當之安全措施。\n三、當事人自行公開或其他已合法公開之個人資料。\n四、學術研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供",
+                      "context_start": 73,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "識別特定之當事人。\n五、經當事人同意。\n六、為增進公共利益所必要。\n七、個人資料取自於一般可得之來源。但當事人對該資料之禁止處理或利用，顯有更值得保護之",
+                      "context_start": 166,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "止對該資料之處理或利用時，應主動或依當事人之請求，刪除、停止處理或利用該個人資料。",
+                      "context_start": 293,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 11,
+                      "end": 13
+                    },
+                    {
+                      "start": 155,
+                      "end": 157
+                    },
+                    {
+                      "start": 267,
+                      "end": 269
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之一者：",
+                      "context_start": 0,
+                      "match_start": 11,
+                      "match_end": 13
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n五、經當事人同意。\n六、為增進公共",
+                      "context_start": 119,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "利用，顯有更值得保護之重大利益者，不在此限。\n八、對當事人權益無侵害。\n蒐集或處理者知悉或經當事人通知依前項第七款但書規定禁止對該資料之處理或利用時",
+                      "context_start": 231,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_2",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 2 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    },
+                    {
+                      "start": 126,
+                      "end": 130
+                    },
+                    {
+                      "start": 162,
+                      "end": 166
+                    },
+                    {
+                      "start": 184,
+                      "end": 188
+                    },
+                    {
+                      "start": 202,
+                      "end": 206
+                    },
+                    {
+                      "start": 259,
+                      "end": 263
+                    },
+                    {
+                      "start": 282,
+                      "end": 286
+                    },
+                    {
+                      "start": 364,
+                      "end": 368
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "本法用詞，定義如下：\n一、個人資料：指自然人之姓名、出生年月日、國民身分證統一編號、護照號碼、特徵、指紋、",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    },
+                    {
+                      "text": "方式、財務情況、社會活動及其他得以直接或間接方式識別該個人之資料。\n二、個人資料檔案：指依系統建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料",
+                      "context_start": 90,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "個人資料檔案：指依系統建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用",
+                      "context_start": 126,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資料之記錄、輸入、儲存、編輯",
+                      "context_start": 148,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資料之記錄、輸入、儲存、編輯、更正、複製、檢索、刪除、輸出、連結",
+                      "context_start": 166,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "輯、更正、複製、檢索、刪除、輸出、連結或內部傳送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處理或利用。",
+                      "context_start": 223,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處理或利用。\n七、公務機關：指依法行使公權力之中央或地方機",
+                      "context_start": 246,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n八、非公務機關：指前款以外之自然人、法人或其他團體。\n九、當事人：指個人資料之本人。",
+                      "context_start": 328,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 173,
+                      "end": 175
+                    },
+                    {
+                      "start": 256,
+                      "end": 258
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資",
+                      "context_start": 137,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "存、編輯、更正、複製、檢索、刪除、輸出、連結或內部傳送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處",
+                      "context_start": 220,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_20",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 20 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 6,
+                      "end": 10
+                    },
+                    {
+                      "start": 233,
+                      "end": 237
+                    },
+                    {
+                      "start": 261,
+                      "end": 265
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之利用，除第六條第一項所規定資料外，應於蒐集之特定目的必要範圍內為之。但",
+                      "context_start": 0,
+                      "match_start": 6,
+                      "match_end": 10
+                    },
+                    {
+                      "text": "。\n六、經當事人同意。\n七、有利於當事人權益。\n非公務機關依前項規定利用個人資料行銷者，當事人表示拒絕接受行銷時，應即停止利用其個人資料行銷。\n非公務機",
+                      "context_start": 197,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "關依前項規定利用個人資料行銷者，當事人表示拒絕接受行銷時，應即停止利用其個人資料行銷。\n非公務機關於首次行銷時，應提供當事人表示拒絕接受行銷之方式，並支",
+                      "context_start": 225,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 30,
+                      "end": 32
+                    },
+                    {
+                      "start": 178,
+                      "end": 180
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之利用，除第六條第一項所規定資料外，應於蒐集之特定目的必要範圍內為之。但有下列情形之一者，得為特定目的外之利用：\n一",
+                      "context_start": 0,
+                      "match_start": 30,
+                      "match_end": 32
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n六、經當事人同意。\n七、有利於當事",
+                      "context_start": 142,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_25",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 25 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 54,
+                      "end": 58
+                    },
+                    {
+                      "start": 70,
+                      "end": 74
+                    },
+                    {
+                      "start": 91,
+                      "end": 95
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "管機關除依本法規定裁處罰鍰外，並得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資",
+                      "context_start": 18,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名",
+                      "context_start": 34,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名或名稱與負責人。\n主管機關為前項處分時，應",
+                      "context_start": 55,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 46,
+                      "end": 48
+                    },
+                    {
+                      "start": 88,
+                      "end": 90
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "規定之情事者，主管機關除依本法規定裁處罰鍰外，並得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令",
+                      "context_start": 10,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名或名稱與負責人。\n主管機關為前項",
+                      "context_start": 52,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_28",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 28 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 12,
+                      "end": 16
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但損害因天",
+                      "context_start": 0,
+                      "match_start": 12,
+                      "match_end": 16
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 19,
+                      "end": 21
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但損害因天災、事變或",
+                      "context_start": 0,
+                      "match_start": 19,
+                      "match_end": 21
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_29",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 29 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但能證明其",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 20,
+                      "end": 22
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但能證明其無故意或過",
+                      "context_start": 0,
+                      "match_start": 20,
+                      "match_end": 22
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_3",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 3 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "當事人就其個人資料依本法規定行使之下列權利，不得預先拋棄或以特約限制之：\n一、查詢或請求閱",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 76,
+                      "end": 78
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "詢或請求閱覽。\n二、請求製給複製本。\n三、請求補充或更正。\n四、請求停止蒐集、處理或利用。\n五、請求刪除。",
+                      "context_start": 40,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_4",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 4 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 21,
+                      "end": 25
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "受公務機關或非公務機關委託蒐集、處理或利用個人資料者，於本法適用範圍內，視同委託機關。",
+                      "context_start": 0,
+                      "match_start": 21,
+                      "match_end": 25
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 15
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "受公務機關或非公務機關委託蒐集、處理或利用個人資料者，於本法適用範圍內，視同委託機關。",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_5",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 5 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 0,
+                      "end": 4
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "個人資料之蒐集、處理或利用，應尊重當事人之權益，依誠實及信用方法為之，不得逾越特",
+                      "context_start": 0,
+                      "match_start": 0,
+                      "match_end": 4
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 7
+                    },
+                    {
+                      "start": 52,
+                      "end": 54
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "個人資料之蒐集、處理或利用，應尊重當事人之權益，依誠實及信用方法為之，不得逾越特定目的",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 7
+                    },
+                    {
+                      "text": "重當事人之權益，依誠實及信用方法為之，不得逾越特定目的之必要範圍，並應與蒐集之目的具有正當合理之關聯。",
+                      "context_start": 16,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_51",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 51 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 46,
+                      "end": 50
+                    },
+                    {
+                      "start": 79,
+                      "end": 83
+                    },
+                    {
+                      "start": 118,
+                      "end": 122
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "適用本法規定：\n一、自然人為單純個人或家庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之",
+                      "context_start": 10,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個",
+                      "context_start": 43,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "料結合之影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個人資料蒐集、處理或利用者，亦適用本法。",
+                      "context_start": 82,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 38,
+                      "end": 40
+                    },
+                    {
+                      "start": 66,
+                      "end": 68
+                    },
+                    {
+                      "start": 122,
+                      "end": 124
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "列情形之一者，不適用本法規定：\n一、自然人為單純個人或家庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未",
+                      "context_start": 2,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之影音資料。\n公務機關及非公務機關，在",
+                      "context_start": 30,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個人資料蒐集、處理或利用者，亦適用本法。",
+                      "context_start": 86,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_6",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 6 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 25,
+                      "end": 29
+                    },
+                    {
+                      "start": 132,
+                      "end": 136
+                    },
+                    {
+                      "start": 346,
+                      "end": 350
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "有關病歷、醫療、基因、性生活、健康檢查及犯罪前科之個人資料，不得蒐集、處理或利用。但有下列情形之一者，不在此限：\n一、法律明文規定",
+                      "context_start": 0,
+                      "match_start": 25,
+                      "match_end": 29
+                    },
+                    {
+                      "text": "，且事前或事後有適當安全維護措施。\n三、當事人自行公開或其他已合法公開之個人資料。\n四、公務機關或學術研究機構基於醫療、衛生或犯罪預防之目的，為統計或學",
+                      "context_start": 96,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利用個人資料，準用第八條、第九條規定；其中前項第六款之書面同意，準用第七條第一項、第",
+                      "context_start": 310,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 32,
+                      "end": 34
+                    },
+                    {
+                      "start": 193,
+                      "end": 195
+                    },
+                    {
+                      "start": 307,
+                      "end": 309
+                    },
+                    {
+                      "start": 338,
+                      "end": 340
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "有關病歷、醫療、基因、性生活、健康檢查及犯罪前科之個人資料，不得蒐集、處理或利用。但有下列情形之一者，不在此限：\n一、法律明文規定。\n二、公",
+                      "context_start": 0,
+                      "match_start": 32,
+                      "match_end": 34
+                    },
+                    {
+                      "text": "生或犯罪預防之目的，為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n五、為協助公務機關執行法定職務或非",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "面同意。但逾越特定目的之必要範圍或其他法律另有限制不得僅依當事人書面同意蒐集、處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利",
+                      "context_start": 271,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "人書面同意蒐集、處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利用個人資料，準用第八條、第九條規定；其中前項第六款之書面同意，",
+                      "context_start": 302,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_7",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 7 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 177,
+                      "end": 181
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "確告知當事人第八條第一項各款應告知事項時，當事人如未表示拒絕，並已提供其個人資料者，推定當事人已依第十五條第二款、第十九條第一項第五款之規定表示同意。\n",
+                      "context_start": 141,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 28,
+                      "end": 30
+                    },
+                    {
+                      "start": 83,
+                      "end": 85
+                    },
+                    {
+                      "start": 217,
+                      "end": 219
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "第十五條第二款及第十九條第一項第五款所稱同意，指當事人經蒐集者告知本法所定應告知事項後，所為允許之意思表示。\n第十六條第七款、第二十",
+                      "context_start": 0,
+                      "match_start": 28,
+                      "match_end": 30
+                    },
+                    {
+                      "text": "許之意思表示。\n第十六條第七款、第二十條第一項第六款所稱同意，指當事人經蒐集者明確告知特定目的外之其他利用目的、範圍及同意與否對其權益之影響後，單獨",
+                      "context_start": 47,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "者，推定當事人已依第十五條第二款、第十九條第一項第五款之規定表示同意。\n蒐集者就本法所稱經當事人同意之事實，應負舉證責任。",
+                      "context_start": 181,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_8",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 8 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 28,
+                      "end": 32
+                    },
+                    {
+                      "start": 75,
+                      "end": 79
+                    },
+                    {
+                      "start": 86,
+                      "end": 90
+                    },
+                    {
+                      "start": 140,
+                      "end": 144
+                    },
+                    {
+                      "start": 193,
+                      "end": 197
+                    },
+                    {
+                      "start": 277,
+                      "end": 281
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定向當事人蒐集個人資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集",
+                      "context_start": 0,
+                      "match_start": 28,
+                      "match_end": 32
+                    },
+                    {
+                      "text": "當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式。\n五、當事人依第三條",
+                      "context_start": 39,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式。\n五、當事人依第三條規定得行使之權利及方式",
+                      "context_start": 50,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n五、當事人依第三條規定得行使之權利及方式。\n六、當事人得自由選擇提供個人資料時，不提供將對其權益之影響。\n有下列情形之一者，得免為前項之告知：\n一、",
+                      "context_start": 104,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n有下列情形之一者，得免為前項之告知：\n一、依法律規定得免告知。\n二、個人資料之蒐集係公務機關執行法定職務或非公務機關履行法定義務所必要。\n三、告知將",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "法定職務。\n四、告知將妨害公共利益。\n五、當事人明知應告知之內容。\n六、個人資料之蒐集非基於營利之目的，且對當事人顯無不利之影響。",
+                      "context_start": 241,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 26,
+                      "end": 28
+                    },
+                    {
+                      "start": 66,
+                      "end": 68
+                    },
+                    {
+                      "start": 198,
+                      "end": 200
+                    },
+                    {
+                      "start": 282,
+                      "end": 284
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定向當事人蒐集個人資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n",
+                      "context_start": 0,
+                      "match_start": 26,
+                      "match_end": 28
+                    },
+                    {
+                      "text": "資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式",
+                      "context_start": 30,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "情形之一者，得免為前項之告知：\n一、依法律規定得免告知。\n二、個人資料之蒐集係公務機關執行法定職務或非公務機關履行法定義務所必要。\n三、告知將妨害公",
+                      "context_start": 162,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "\n四、告知將妨害公共利益。\n五、當事人明知應告知之內容。\n六、個人資料之蒐集非基於營利之目的，且對當事人顯無不利之影響。",
+                      "context_start": 246,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_9",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 9 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 32,
+                      "end": 36
+                    },
+                    {
+                      "start": 52,
+                      "end": 56
+                    },
+                    {
+                      "start": 132,
+                      "end": 136
+                    },
+                    {
+                      "start": 241,
+                      "end": 245
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前條第一項第一款至第五款所",
+                      "context_start": 0,
+                      "match_start": 32,
+                      "match_end": 36
+                    },
+                    {
+                      "text": "第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前條第一項第一款至第五款所列事項。\n有下列情形之一者，得免為前項之",
+                      "context_start": 16,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "一、有前條第二項所列各款情形之一。\n二、當事人自行公開或其他已合法公開之個人資料。\n三、不能向當事人或其法定代理人為告知。\n四、基於公共利益為統計或學術",
+                      "context_start": 96,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導之公益目的而蒐集個人資料。\n第一項之告知，得於首次對當事人為利用時併同為之。",
+                      "context_start": 205,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 22,
+                      "end": 24
+                    },
+                    {
+                      "start": 195,
+                      "end": 197
+                    },
+                    {
+                      "start": 239,
+                      "end": 241
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前",
+                      "context_start": 0,
+                      "match_start": 22,
+                      "match_end": 24
+                    },
+                    {
+                      "text": "、基於公共利益為統計或學術研究之目的而有必要，且該資料須經提供者處理後或蒐集者依其揭露方式，無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導",
+                      "context_start": 159,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "式，無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導之公益目的而蒐集個人資料。\n第一項之告知，得於首次對當事人為利用時併同為之。",
+                      "context_start": 203,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_K0040012_35",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+              "law_name": "道路交通管理處罰條例",
+              "article_no": "第 35 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 1897,
+                      "end": 1901
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "繳納不足最低罰鍰之部分。\n第六項血液測試檢定結果之蒐集、處理或利用，應依個人資料保護法相關規定辦理，並僅得作為執法利用；有關血液採集、測試檢定、保存、銷",
+                      "context_start": 1861,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 1886,
+                      "end": 1888
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "規定者，應依本條例裁決繳納不足最低罰鍰之部分。\n第六項血液測試檢定結果之蒐集、處理或利用，應依個人資料保護法相關規定辦理，並僅得作為執法利用；有關血",
+                      "context_start": 1850,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_K0040012_92-2",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+              "law_name": "道路交通管理處罰條例",
+              "article_no": "第 92-2 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 424,
+                      "end": 428
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "良管理人之注意義務，確實辦理資訊安全稽核作業，其保有、處理及利用，並應依個人資料保護法之規定辦理。\n第二項提供資料之蒐集、處理、利用、項目、程序及其他相",
+                      "context_start": 388,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 446,
+                      "end": 448
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "，其保有、處理及利用，並應依個人資料保護法之規定辦理。\n第二項提供資料之蒐集、處理、利用、項目、程序及其他相關事項之辦法，由交通部會商相關主管機關定",
+                      "context_start": 410,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "個人資料",
+      "candidate": "蒐集",
+      "domain": "個資",
+      "related_terms": [
+        {
+          "phrase": "蒐集",
+          "score": 0.5277777777777778,
+          "cooccurrence_df": 19,
+          "method": "document_jaccard",
+          "term": "個人資料",
+          "term_df": 36,
+          "phrase_df": 19,
+          "union_df": 36,
+          "domain": "個資",
+          "cooccurrence_doc_ids": [
+            "moj_I0050021_1",
+            "moj_I0050021_10",
+            "moj_I0050021_11",
+            "moj_I0050021_15",
+            "moj_I0050021_16",
+            "moj_I0050021_19",
+            "moj_I0050021_2",
+            "moj_I0050021_20",
+            "moj_I0050021_25",
+            "moj_I0050021_28",
+            "moj_I0050021_29",
+            "moj_I0050021_3",
+            "moj_I0050021_4",
+            "moj_I0050021_5",
+            "moj_I0050021_51",
+            "moj_I0050021_6",
+            "moj_I0050021_7",
+            "moj_I0050021_8",
+            "moj_I0050021_9"
+          ],
+          "evidence": [
+            {
+              "doc_id": "moj_I0050021_1",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 1 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 3,
+                      "end": 7
+                    },
+                    {
+                      "start": 30,
+                      "end": 34
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定",
+                      "context_start": 0,
+                      "match_start": 3,
+                      "match_end": 7
+                    },
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定本法。",
+                      "context_start": 0,
+                      "match_start": 30,
+                      "match_end": 34
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 8,
+                      "end": 10
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "為規範個人資料之蒐集、處理及利用，以避免人格權受侵害，並促進個人資料之合理利用，特制定本法。",
+                      "context_start": 0,
+                      "match_start": 8,
+                      "match_end": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_10",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 10 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 24,
+                      "end": 28
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應依當事人之請求，就其蒐集之個人資料，答覆查詢、提供閱覽或製給複製本。但有下列情形之一者，不在此限：\n一、妨",
+                      "context_start": 0,
+                      "match_start": 24,
+                      "match_end": 28
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 21,
+                      "end": 23
+                    },
+                    {
+                      "start": 116,
+                      "end": 118
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應依當事人之請求，就其蒐集之個人資料，答覆查詢、提供閱覽或製給複製本。但有下列情形之一者，不在此限",
+                      "context_start": 0,
+                      "match_start": 21,
+                      "match_end": 23
+                    },
+                    {
+                      "text": "經濟利益或其他國家重大利益。\n二、妨害公務機關執行法定職務。\n三、妨害該蒐集機關或第三人之重大利益。",
+                      "context_start": 80,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_11",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 11 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    },
+                    {
+                      "start": 41,
+                      "end": 45
+                    },
+                    {
+                      "start": 110,
+                      "end": 114
+                    },
+                    {
+                      "start": 153,
+                      "end": 157
+                    },
+                    {
+                      "start": 201,
+                      "end": 205
+                    },
+                    {
+                      "start": 233,
+                      "end": 237
+                    },
+                    {
+                      "start": 266,
+                      "end": 270
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關應維護個人資料之正確，並應主動或依當事人之請求更正或補充之。\n個人資料正確性有爭議者，",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    },
+                    {
+                      "text": "非公務機關應維護個人資料之正確，並應主動或依當事人之請求更正或補充之。\n個人資料正確性有爭議者，應主動或依當事人之請求停止處理或利用。但因執行職務或業務",
+                      "context_start": 5,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "執行職務或業務所必須，或經當事人書面同意，並經註明其爭議者，不在此限。\n個人資料蒐集之特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或",
+                      "context_start": 74,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或利用該個人資料。但因執行職務或業務所必須或經當事人書面同意者，不在此限。\n違反本法規定",
+                      "context_start": 117,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "業務所必須或經當事人書面同意者，不在此限。\n違反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可",
+                      "context_start": 165,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正或補充之個人資料，應於",
+                      "context_start": 197,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正或補充之個人資料，應於更正或補充後，通知曾提供利用之對象。",
+                      "context_start": 230,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 114,
+                      "end": 116
+                    },
+                    {
+                      "start": 193,
+                      "end": 195
+                    },
+                    {
+                      "start": 224,
+                      "end": 226
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "或業務所必須，或經當事人書面同意，並經註明其爭議者，不在此限。\n個人資料蒐集之特定目的消失或期限屆滿時，應主動或依當事人之請求，刪除、停止處理或利用",
+                      "context_start": 78,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "。但因執行職務或業務所必須或經當事人書面同意者，不在此限。\n違反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "反本法規定蒐集、處理或利用個人資料者，應主動或依當事人之請求，刪除、停止蒐集、處理或利用該個人資料。\n因可歸責於公務機關或非公務機關之事由，未為更正",
+                      "context_start": 188,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_15",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 15 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 10,
+                      "end": 12
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之一者：",
+                      "context_start": 0,
+                      "match_start": 10,
+                      "match_end": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_16",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 16 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關對個人資料之利用，除第六條第一項所規定資料外，應於執行法定職務必要範圍內為之，並與",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 45,
+                      "end": 47
+                    },
+                    {
+                      "start": 195,
+                      "end": 197
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "之利用，除第六條第一項所規定資料外，應於執行法定職務必要範圍內為之，並與蒐集之特定目的相符。但有下列情形之一者，得為特定目的外之利用：\n一、法律明文",
+                      "context_start": 9,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n六、有利於當事人權益。\n七、經當事",
+                      "context_start": 159,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_19",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 19 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 6,
+                      "end": 10
+                    },
+                    {
+                      "start": 109,
+                      "end": 113
+                    },
+                    {
+                      "start": 202,
+                      "end": 206
+                    },
+                    {
+                      "start": 329,
+                      "end": 333
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之",
+                      "context_start": 0,
+                      "match_start": 6,
+                      "match_end": 10
+                    },
+                    {
+                      "text": "約之關係，且已採取適當之安全措施。\n三、當事人自行公開或其他已合法公開之個人資料。\n四、學術研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供",
+                      "context_start": 73,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "識別特定之當事人。\n五、經當事人同意。\n六、為增進公共利益所必要。\n七、個人資料取自於一般可得之來源。但當事人對該資料之禁止處理或利用，顯有更值得保護之",
+                      "context_start": 166,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "止對該資料之處理或利用時，應主動或依當事人之請求，刪除、停止處理或利用該個人資料。",
+                      "context_start": 293,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 11,
+                      "end": 13
+                    },
+                    {
+                      "start": 155,
+                      "end": 157
+                    },
+                    {
+                      "start": 267,
+                      "end": 269
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之一者：",
+                      "context_start": 0,
+                      "match_start": 11,
+                      "match_end": 13
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n五、經當事人同意。\n六、為增進公共",
+                      "context_start": 119,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "利用，顯有更值得保護之重大利益者，不在此限。\n八、對當事人權益無侵害。\n蒐集或處理者知悉或經當事人通知依前項第七款但書規定禁止對該資料之處理或利用時",
+                      "context_start": 231,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_2",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 2 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    },
+                    {
+                      "start": 126,
+                      "end": 130
+                    },
+                    {
+                      "start": 162,
+                      "end": 166
+                    },
+                    {
+                      "start": 184,
+                      "end": 188
+                    },
+                    {
+                      "start": 202,
+                      "end": 206
+                    },
+                    {
+                      "start": 259,
+                      "end": 263
+                    },
+                    {
+                      "start": 282,
+                      "end": 286
+                    },
+                    {
+                      "start": 364,
+                      "end": 368
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "本法用詞，定義如下：\n一、個人資料：指自然人之姓名、出生年月日、國民身分證統一編號、護照號碼、特徵、指紋、",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    },
+                    {
+                      "text": "方式、財務情況、社會活動及其他得以直接或間接方式識別該個人之資料。\n二、個人資料檔案：指依系統建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料",
+                      "context_start": 90,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "個人資料檔案：指依系統建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用",
+                      "context_start": 126,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資料之記錄、輸入、儲存、編輯",
+                      "context_start": 148,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資料之記錄、輸入、儲存、編輯、更正、複製、檢索、刪除、輸出、連結",
+                      "context_start": 166,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "輯、更正、複製、檢索、刪除、輸出、連結或內部傳送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處理或利用。",
+                      "context_start": 223,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處理或利用。\n七、公務機關：指依法行使公權力之中央或地方機",
+                      "context_start": 246,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n八、非公務機關：指前款以外之自然人、法人或其他團體。\n九、當事人：指個人資料之本人。",
+                      "context_start": 328,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 173,
+                      "end": 175
+                    },
+                    {
+                      "start": 256,
+                      "end": 258
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料之集合。\n三、蒐集：指以任何方式取得個人資料。\n四、處理：指為建立或利用個人資料檔案所為資",
+                      "context_start": 137,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "存、編輯、更正、複製、檢索、刪除、輸出、連結或內部傳送。\n五、利用：指將蒐集之個人資料為處理以外之使用。\n六、國際傳輸：指將個人資料作跨國（境）之處",
+                      "context_start": 220,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_20",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 20 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 6,
+                      "end": 10
+                    },
+                    {
+                      "start": 233,
+                      "end": 237
+                    },
+                    {
+                      "start": 261,
+                      "end": 265
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之利用，除第六條第一項所規定資料外，應於蒐集之特定目的必要範圍內為之。但",
+                      "context_start": 0,
+                      "match_start": 6,
+                      "match_end": 10
+                    },
+                    {
+                      "text": "。\n六、經當事人同意。\n七、有利於當事人權益。\n非公務機關依前項規定利用個人資料行銷者，當事人表示拒絕接受行銷時，應即停止利用其個人資料行銷。\n非公務機",
+                      "context_start": 197,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "關依前項規定利用個人資料行銷者，當事人表示拒絕接受行銷時，應即停止利用其個人資料行銷。\n非公務機關於首次行銷時，應提供當事人表示拒絕接受行銷之方式，並支",
+                      "context_start": 225,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 30,
+                      "end": 32
+                    },
+                    {
+                      "start": 178,
+                      "end": 180
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關對個人資料之利用，除第六條第一項所規定資料外，應於蒐集之特定目的必要範圍內為之。但有下列情形之一者，得為特定目的外之利用：\n一",
+                      "context_start": 0,
+                      "match_start": 30,
+                      "match_end": 32
+                    },
+                    {
+                      "text": "研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n六、經當事人同意。\n七、有利於當事",
+                      "context_start": 142,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_25",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 25 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 54,
+                      "end": 58
+                    },
+                    {
+                      "start": 70,
+                      "end": 74
+                    },
+                    {
+                      "start": 91,
+                      "end": 95
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "管機關除依本法規定裁處罰鍰外，並得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資",
+                      "context_start": 18,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名",
+                      "context_start": 34,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名或名稱與負責人。\n主管機關為前項處分時，應",
+                      "context_start": 55,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 46,
+                      "end": 48
+                    },
+                    {
+                      "start": 88,
+                      "end": 90
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "規定之情事者，主管機關除依本法規定裁處罰鍰外，並得為下列處分：\n一、禁止蒐集、處理或利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令",
+                      "context_start": 10,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "利用個人資料。\n二、命令刪除經處理之個人資料檔案。\n三、沒入或令銷毀違法蒐集之個人資料。\n四、公布違法情形，及其姓名或名稱與負責人。\n主管機關為前項",
+                      "context_start": 52,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_28",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 28 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 12,
+                      "end": 16
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但損害因天",
+                      "context_start": 0,
+                      "match_start": 12,
+                      "match_end": 16
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 19,
+                      "end": 21
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但損害因天災、事變或",
+                      "context_start": 0,
+                      "match_start": 19,
+                      "match_end": 21
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_29",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 29 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 17
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但能證明其",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 17
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 20,
+                      "end": 22
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "非公務機關違反本法規定，致個人資料遭不法蒐集、處理、利用或其他侵害當事人權利者，負損害賠償責任。但能證明其無故意或過",
+                      "context_start": 0,
+                      "match_start": 20,
+                      "match_end": 22
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_3",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 3 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 9
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "當事人就其個人資料依本法規定行使之下列權利，不得預先拋棄或以特約限制之：\n一、查詢或請求閱",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 9
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 76,
+                      "end": 78
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "詢或請求閱覽。\n二、請求製給複製本。\n三、請求補充或更正。\n四、請求停止蒐集、處理或利用。\n五、請求刪除。",
+                      "context_start": 40,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_4",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 4 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 21,
+                      "end": 25
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "受公務機關或非公務機關委託蒐集、處理或利用個人資料者，於本法適用範圍內，視同委託機關。",
+                      "context_start": 0,
+                      "match_start": 21,
+                      "match_end": 25
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 13,
+                      "end": 15
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "受公務機關或非公務機關委託蒐集、處理或利用個人資料者，於本法適用範圍內，視同委託機關。",
+                      "context_start": 0,
+                      "match_start": 13,
+                      "match_end": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_5",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 5 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 0,
+                      "end": 4
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "個人資料之蒐集、處理或利用，應尊重當事人之權益，依誠實及信用方法為之，不得逾越特",
+                      "context_start": 0,
+                      "match_start": 0,
+                      "match_end": 4
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 5,
+                      "end": 7
+                    },
+                    {
+                      "start": 52,
+                      "end": 54
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "個人資料之蒐集、處理或利用，應尊重當事人之權益，依誠實及信用方法為之，不得逾越特定目的",
+                      "context_start": 0,
+                      "match_start": 5,
+                      "match_end": 7
+                    },
+                    {
+                      "text": "重當事人之權益，依誠實及信用方法為之，不得逾越特定目的之必要範圍，並應與蒐集之目的具有正當合理之關聯。",
+                      "context_start": 16,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_51",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 51 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 46,
+                      "end": 50
+                    },
+                    {
+                      "start": 79,
+                      "end": 83
+                    },
+                    {
+                      "start": 118,
+                      "end": 122
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "適用本法規定：\n一、自然人為單純個人或家庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之",
+                      "context_start": 10,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個",
+                      "context_start": 43,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "料結合之影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個人資料蒐集、處理或利用者，亦適用本法。",
+                      "context_start": 82,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 38,
+                      "end": 40
+                    },
+                    {
+                      "start": 66,
+                      "end": 68
+                    },
+                    {
+                      "start": 122,
+                      "end": 124
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "列情形之一者，不適用本法規定：\n一、自然人為單純個人或家庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未",
+                      "context_start": 2,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "庭活動之目的，而蒐集、處理或利用個人資料。\n二、於公開場所或公開活動中所蒐集、處理或利用之未與其他個人資料結合之影音資料。\n公務機關及非公務機關，在",
+                      "context_start": 30,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "影音資料。\n公務機關及非公務機關，在中華民國領域外對中華民國人民個人資料蒐集、處理或利用者，亦適用本法。",
+                      "context_start": 86,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_6",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 6 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 25,
+                      "end": 29
+                    },
+                    {
+                      "start": 132,
+                      "end": 136
+                    },
+                    {
+                      "start": 346,
+                      "end": 350
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "有關病歷、醫療、基因、性生活、健康檢查及犯罪前科之個人資料，不得蒐集、處理或利用。但有下列情形之一者，不在此限：\n一、法律明文規定",
+                      "context_start": 0,
+                      "match_start": 25,
+                      "match_end": 29
+                    },
+                    {
+                      "text": "，且事前或事後有適當安全維護措施。\n三、當事人自行公開或其他已合法公開之個人資料。\n四、公務機關或學術研究機構基於醫療、衛生或犯罪預防之目的，為統計或學",
+                      "context_start": 96,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利用個人資料，準用第八條、第九條規定；其中前項第六款之書面同意，準用第七條第一項、第",
+                      "context_start": 310,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 32,
+                      "end": 34
+                    },
+                    {
+                      "start": 193,
+                      "end": 195
+                    },
+                    {
+                      "start": 307,
+                      "end": 309
+                    },
+                    {
+                      "start": 338,
+                      "end": 340
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "有關病歷、醫療、基因、性生活、健康檢查及犯罪前科之個人資料，不得蒐集、處理或利用。但有下列情形之一者，不在此限：\n一、法律明文規定。\n二、公",
+                      "context_start": 0,
+                      "match_start": 32,
+                      "match_end": 34
+                    },
+                    {
+                      "text": "生或犯罪預防之目的，為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。\n五、為協助公務機關執行法定職務或非",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "面同意。但逾越特定目的之必要範圍或其他法律另有限制不得僅依當事人書面同意蒐集、處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利",
+                      "context_start": 271,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "人書面同意蒐集、處理或利用，或其同意違反其意願者，不在此限。\n依前項規定蒐集、處理或利用個人資料，準用第八條、第九條規定；其中前項第六款之書面同意，",
+                      "context_start": 302,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_7",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 7 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 177,
+                      "end": 181
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "確告知當事人第八條第一項各款應告知事項時，當事人如未表示拒絕，並已提供其個人資料者，推定當事人已依第十五條第二款、第十九條第一項第五款之規定表示同意。\n",
+                      "context_start": 141,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 28,
+                      "end": 30
+                    },
+                    {
+                      "start": 83,
+                      "end": 85
+                    },
+                    {
+                      "start": 217,
+                      "end": 219
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "第十五條第二款及第十九條第一項第五款所稱同意，指當事人經蒐集者告知本法所定應告知事項後，所為允許之意思表示。\n第十六條第七款、第二十",
+                      "context_start": 0,
+                      "match_start": 28,
+                      "match_end": 30
+                    },
+                    {
+                      "text": "許之意思表示。\n第十六條第七款、第二十條第一項第六款所稱同意，指當事人經蒐集者明確告知特定目的外之其他利用目的、範圍及同意與否對其權益之影響後，單獨",
+                      "context_start": 47,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "者，推定當事人已依第十五條第二款、第十九條第一項第五款之規定表示同意。\n蒐集者就本法所稱經當事人同意之事實，應負舉證責任。",
+                      "context_start": 181,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_8",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 8 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 28,
+                      "end": 32
+                    },
+                    {
+                      "start": 75,
+                      "end": 79
+                    },
+                    {
+                      "start": 86,
+                      "end": 90
+                    },
+                    {
+                      "start": 140,
+                      "end": 144
+                    },
+                    {
+                      "start": 193,
+                      "end": 197
+                    },
+                    {
+                      "start": 277,
+                      "end": 281
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定向當事人蒐集個人資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集",
+                      "context_start": 0,
+                      "match_start": 28,
+                      "match_end": 32
+                    },
+                    {
+                      "text": "當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式。\n五、當事人依第三條",
+                      "context_start": 39,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式。\n五、當事人依第三條規定得行使之權利及方式",
+                      "context_start": 50,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n五、當事人依第三條規定得行使之權利及方式。\n六、當事人得自由選擇提供個人資料時，不提供將對其權益之影響。\n有下列情形之一者，得免為前項之告知：\n一、",
+                      "context_start": 104,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "。\n有下列情形之一者，得免為前項之告知：\n一、依法律規定得免告知。\n二、個人資料之蒐集係公務機關執行法定職務或非公務機關履行法定義務所必要。\n三、告知將",
+                      "context_start": 157,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "法定職務。\n四、告知將妨害公共利益。\n五、當事人明知應告知之內容。\n六、個人資料之蒐集非基於營利之目的，且對當事人顯無不利之影響。",
+                      "context_start": 241,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 26,
+                      "end": 28
+                    },
+                    {
+                      "start": 66,
+                      "end": 68
+                    },
+                    {
+                      "start": 198,
+                      "end": 200
+                    },
+                    {
+                      "start": 282,
+                      "end": 284
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定向當事人蒐集個人資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n",
+                      "context_start": 0,
+                      "match_start": 26,
+                      "match_end": 28
+                    },
+                    {
+                      "text": "資料時，應明確告知當事人下列事項：\n一、公務機關或非公務機關名稱。\n二、蒐集之目的。\n三、個人資料之類別。\n四、個人資料利用之期間、地區、對象及方式",
+                      "context_start": 30,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "情形之一者，得免為前項之告知：\n一、依法律規定得免告知。\n二、個人資料之蒐集係公務機關執行法定職務或非公務機關履行法定義務所必要。\n三、告知將妨害公",
+                      "context_start": 162,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "\n四、告知將妨害公共利益。\n五、當事人明知應告知之內容。\n六、個人資料之蒐集非基於營利之目的，且對當事人顯無不利之影響。",
+                      "context_start": 246,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "doc_id": "moj_I0050021_9",
+              "corpus_id": "official_rental_20261114_v3",
+              "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+              "law_name": "個人資料保護法",
+              "article_no": "第 9 條",
+              "matches": [
+                {
+                  "phrase": "個人資料",
+                  "positions": [
+                    {
+                      "start": 32,
+                      "end": 36
+                    },
+                    {
+                      "start": 52,
+                      "end": 56
+                    },
+                    {
+                      "start": 132,
+                      "end": 136
+                    },
+                    {
+                      "start": 241,
+                      "end": 245
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前條第一項第一款至第五款所",
+                      "context_start": 0,
+                      "match_start": 32,
+                      "match_end": 36
+                    },
+                    {
+                      "text": "第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前條第一項第一款至第五款所列事項。\n有下列情形之一者，得免為前項之",
+                      "context_start": 16,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "一、有前條第二項所列各款情形之一。\n二、當事人自行公開或其他已合法公開之個人資料。\n三、不能向當事人或其法定代理人為告知。\n四、基於公共利益為統計或學術",
+                      "context_start": 96,
+                      "match_start": 36,
+                      "match_end": 40
+                    },
+                    {
+                      "text": "無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導之公益目的而蒐集個人資料。\n第一項之告知，得於首次對當事人為利用時併同為之。",
+                      "context_start": 205,
+                      "match_start": 36,
+                      "match_end": 40
+                    }
+                  ]
+                },
+                {
+                  "phrase": "蒐集",
+                  "positions": [
+                    {
+                      "start": 22,
+                      "end": 24
+                    },
+                    {
+                      "start": 195,
+                      "end": 197
+                    },
+                    {
+                      "start": 239,
+                      "end": 241
+                    }
+                  ],
+                  "contexts": [
+                    {
+                      "text": "公務機關或非公務機關依第十五條或第十九條規定蒐集非由當事人提供之個人資料，應於處理或利用前，向當事人告知個人資料來源及前",
+                      "context_start": 0,
+                      "match_start": 22,
+                      "match_end": 24
+                    },
+                    {
+                      "text": "、基於公共利益為統計或學術研究之目的而有必要，且該資料須經提供者處理後或蒐集者依其揭露方式，無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導",
+                      "context_start": 159,
+                      "match_start": 36,
+                      "match_end": 38
+                    },
+                    {
+                      "text": "式，無從識別特定當事人者為限。\n五、大眾傳播業者基於新聞報導之公益目的而蒐集個人資料。\n第一項之告知，得於首次對當事人為利用時併同為之。",
+                      "context_start": 203,
+                      "match_start": 36,
+                      "match_end": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "押金",
+      "candidate": "蒐集",
+      "domain": null,
+      "related_terms": []
+    }
+  ]
+}

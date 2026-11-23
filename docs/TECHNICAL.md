@@ -33,14 +33,16 @@ kind,id,corpus_id,doc_id,query_id,text,target,label,evidence,source_url,author
 | GET `/health`、`/meta`、`/team` | 無 | 狀態、版本或角色資料 |
 | GET `/search` | `query`、`corpus_id`，可選 `top_k`、`domain` | `results` 搜尋結果和 `suggestions` 推薦 |
 | GET `/suggest` | `query`、`corpus_id` | 推薦詞、理由和來源文件 ID |
-| GET `/phrases/{term}` | 詞組放在路徑，另傳 `corpus_id` | 總次數、命中文本數、位置、上下文和共現詞組 |
+| GET `/phrases/{term}` | 詞組放在路徑，另傳 `corpus_id`，可選 `evidence=1` | 總次數、命中文本數、位置、上下文和共現詞組 |
 | GET `/documents/{id}` | 文件 ID 放在路徑，另傳 `corpus_id` | 原文和官方來源 |
 
 `query` 和 `term` 長度是 1～200 字。`top_k` 預設 5，範圍是 1～20。輸入不合法回 400，找不到指定語料或文件回 404，搜尋無命中回 200 和空結果。錯誤訊息在 `error.message`。
 
 - **B** 參照 `reference.py` 的 `lookup(phrase)`。輸出 `frequency` 總次數、`df` 命中文本數，以及 `documents` 內每份文件的 `doc_id`、`tf` 和 `positions`。位置從 0 開始，用 Unicode code point 計算，`end` 指命中後的第一個位置。可重疊，單次命中不能跨文件。前端用 `Array.from` 轉換字元位置。
 - **C** 維持 `search(query, top_k, domain)`，交回按排名排好的 `doc_id` 與 `score`。現有 BM25 用單字元和雙字元組合，`k1=1.5`、`b=0.75`，同分以文件 ID 排序。推薦包含 `phrase`、`reason` 和 `source_doc_ids`。
-- **D** 的共現分數是「兩詞都出現的文件數 ÷ 至少出現其中一詞的文件數」。目前 `related_terms` 已有詞組、分數和 `cooccurrence_df`，要讓前端查看共現證據時，再約定共同文件 ID 與上下文的格式。
+- **D** 的共現分數是「兩詞都出現的文件數 ÷ 至少出現其中一詞的文件數」。傳 `evidence=1` 時，`related_terms` 每項會加上 `cooccurrence_doc_ids` 和 `evidence`。每份證據有文件資訊和兩個詞各自的 `positions`、`contexts`。這些片段以原文為準，前端可用 `doc_id` 開啟全文。
+
+交付的 [D 組範例](../handoff/D/examples.json) 每例只指定一個候選詞，也包含 Python 模組的領域篩選例子。網站 API 目前從種子詞排序，最多回傳 5 組，按全語料計算。範例的 `index_id` 記錄製作當時的版本。Git 轉換換行格式時，索引 ID 可能不同，前端應從 `/meta` 取得目前使用的版本。
 - **A** 從 API 拿排名、全文和上下文。共用服務在 `src/services.py` 組裝這些模組，B、C 或 D 改回傳格式前先和 A 對一下。
 
 ## 怎麼做評估
