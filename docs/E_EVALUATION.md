@@ -25,6 +25,15 @@ python -X utf8 -m src.evaluation.metrics compare results/eval/before/run.json re
 
 ## 給 C 的交件格式
 
+可直接用 C 的指令產生兩份排名，再用同一批消費題比較：
+
+```powershell
+python -X utf8 -m src.retrieval.compare_c
+python -X utf8 -m src.evaluation.metrics compare results/local/C_baseline_run.json results/local/C_expanded_run.json --roles C --name c-mapping
+```
+
+這批題目與口語對照出自同一輪開發，結果用於檢查流程和分析案例。
+
 下面三種任選一種，同一份語料（`corpus_id` 要一致），每題至少前 10 名：
 
 1. `manage.py export` 的格式：`{"corpus_id", "index_id", "runs": [{"query_id", "results": [{"doc_id", "rank", "score"}]}]}`

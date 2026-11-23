@@ -40,7 +40,7 @@ class HTTPTests(unittest.TestCase):
         self.assertEqual(self.request('/search?'+urlencode({'query':'x','top_k':'abc','corpus_id':self.service.corpus_id}))[0],400)
 
     def test_frontend_and_guides(self):
-        for path in ('/','/style.css','/app.js','/team','/meta','/health','/docs/TEAM.md','/docs/'+quote('LawExplore_三頁交接指南.pdf')):
+        for path in ('/','/style.css','/app.js','/team','/meta','/health','/docs/TEAM.md','/docs/TECHNICAL.md'):
             status,body=self.request(path);self.assertEqual(status,200,path);self.assertTrue(body)
 
     def test_logging_disabled(self):

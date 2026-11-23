@@ -53,6 +53,19 @@ output = {
 }
 output_path = output_dir / 'C_compare_run.json'
 output_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
+for variant, method in output['methods'].items():
+    run = {
+        'corpus_id': service.corpus_id,
+        'index_id': service.index_id,
+        'method': method,
+        'top_k': TOP_K,
+        'runs': [
+            {'query_id': record['query_id'], 'results': record[variant]}
+            for record in records
+        ],
+    }
+    (output_dir / f'C_{variant}_run.json').write_text(
+        json.dumps(run, ensure_ascii=False, indent=2), encoding='utf-8')
 
 # 5. 印出對照：每題的標準答案在兩版各排第幾名（10 名外顯示 -）
 def rank_of(doc_id, ranked_ids):

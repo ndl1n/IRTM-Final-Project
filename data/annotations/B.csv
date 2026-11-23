@@ -461,8 +461,8 @@ query,B_Q_22,official_rental_20261114_v3,,,公司可以強迫我幾歲就退休�
 qrel,B_R_22_1,official_rental_20261114_v3,moj_N0030001_54,B_Q_22,,,2,年滿六十五歲或身心障礙不堪勝任才可強制退休。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=54,B
 qrel,B_R_22_2,official_rental_20261114_v3,moj_N0030001_53,B_Q_22,,,1,自請退休，用來對照。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=53,B
 query,B_Q_23,official_rental_20261114_v3,,,女生可以被排夜班到半夜嗎？,,development,,,B
-qrel,B_R_23_1,official_rental_20261114_v3,moj_N0030001_49,B_Q_23,,,2,午後十時至翌晨六時工作需工會或勞資會議同意並提供安全設施、交通。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=49,B
-qrel,B_R_23_2,official_rental_20261114_v3,moj_N0030001_30-1,B_Q_23,,,1,指定行業女性夜間工作的例外。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=30-1,B
+qrel,B_R_23_1,official_rental_20261114_v3,moj_N0030001_49,B_Q_23,,,2,本條直接對應問題。第1項的一般女性夜間工作限制依釋字第807號自2021-08-20失效。孕期及哺乳期間應另核對第5項。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=49,B
+qrel,B_R_23_2,official_rental_20261114_v3,moj_N0030001_30-1,B_Q_23,,,1,提供舊夜間工作限制的例外背景。答題時應先核對釋字第807號對第49條第1項的效力。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=30-1,B
 query,B_Q_24,official_rental_20261114_v3,,,十五歲可以打工嗎？一天能做多久？,,development,,,B
 qrel,B_R_24_1,official_rental_20261114_v3,moj_N0030001_44,B_Q_24,,,2,十五歲以上未滿十六歲為童工，不得從事危險或有害工作。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=44,B
 qrel,B_R_24_2,official_rental_20261114_v3,moj_N0030001_47,B_Q_24,,,2,童工每日不得超過八小時、每週四十小時。,https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=N0030001&flno=47,B

@@ -10,7 +10,12 @@ def read_work(path):
         reader=csv.DictReader(f)
         if reader.fieldnames!=FIELDS:
             raise ValueError(f'{path}: header must match the shared {len(FIELDS)} columns')
-        return [row for row in reader if any(row.values())]
+        rows = [row for row in reader if any(row.values())]
+        for row in rows:
+            # Git on Windows can change line endings inside quoted CSV fields.
+            if row.get('text') is not None:
+                row['text'] = row['text'].replace('\r\n', '\n')
+        return rows
 
 def validate_annotations(directory, documents, corpus_id):
     docs={d['doc_id']:d for d in documents};rows=[];queries={};ids=set();pairs=set();errors=[]
